@@ -15,7 +15,7 @@ with open("study_file", "r") as file:
         hours_list.append(float(line.strip()))
         average = sum(hours_list) / len(hours_list)
         if average>10:
-             print("too much work its bad for our healt and ou wont emprove correctly")
+             print("too much work its bad for your healt and ou wont emprove correctly")
         elif average>6:
              print("very good iu are amproving")
         elif average>3:
